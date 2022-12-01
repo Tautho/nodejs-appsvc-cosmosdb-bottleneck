@@ -10,7 +10,7 @@ pool:
   vmImage: windows-latest
 
 variables:
-  webAppName: 'SampleApp'
+  webAppName: 'SpaceGame'
   serviceConnection: 'SpaceDemoCICD'
   azureSubscriptionId: 'bfbcac43-3627-4ee7-b37a-76a0142069aa'
   loadTestResource: 'SpaceGame'
@@ -58,7 +58,7 @@ stages:
         azureResourceManagerConnection: $(serviceConnection)
         subscriptionId: $(azureSubscriptionId)
         action: 'Create Or Update Resource Group'
-        resourceGroupName: '$(webAppName)-rg'
+        resourceGroupName: '$(webAppName)'
         location: $(location)
         templateLocation: 'Linked artifact'
         csmFile: '$(System.DefaultWorkingDirectory)/windows-webapp-template.json'
