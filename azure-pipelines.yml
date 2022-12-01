@@ -11,7 +11,7 @@ pool:
 
 variables:
   webAppName: 'SpaceGame'
-  serviceConnection: 'TauthoNguyen-HackAThonZ-bfbcac43-3627-4ee7-b37a-76a0142069aa'
+  serviceConnection: 'SpaceDemoCICD'
   azureSubscriptionId: 'bfbcac43-3627-4ee7-b37a-76a0142069aa'
   loadTestResource: 'SpaceGame'
   loadTestResourceGroup: 'SpaceGame_Demo'
