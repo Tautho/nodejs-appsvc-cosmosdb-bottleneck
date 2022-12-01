@@ -10,12 +10,12 @@ pool:
   vmImage: windows-latest
 
 variables:
-  webAppName: 'loadtestcicd3'
+  webAppName: 'loadtestcicd4'
   serviceConnection: 'loadtestcicdservice'
   azureSubscriptionId: 'bfbcac43-3627-4ee7-b37a-76a0142069aa'
   loadTestResource: 'loadtestcicdz'
   loadTestResourceGroup: 'loadtestcicdcentralus-rg'
-  location: 'Central US'
+  location: 'southcentralus'
 
 
 stages:
