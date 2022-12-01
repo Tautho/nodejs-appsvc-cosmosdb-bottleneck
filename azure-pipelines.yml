@@ -13,7 +13,7 @@ variables:
   webAppName: 'SampleApp'
   serviceConnection: 'SpaceDemoCICD'
   azureSubscriptionId: 'bfbcac43-3627-4ee7-b37a-76a0142069aa'
-  loadTestResource: 'SampleApp'
+  loadTestResource: 'SpaceGame'
   loadTestResourceGroup: 'SpaceGame_Demo'
   location: 'EAST US'
 
