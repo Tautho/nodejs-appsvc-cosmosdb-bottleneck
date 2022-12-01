@@ -10,12 +10,12 @@ pool:
   vmImage: windows-latest
 
 variables:
-  webAppName: 'SpaceGame_Demo'
+  webAppName: 'TestCICDgr'
   serviceConnection: 'SpaceDemoCICD'
   azureSubscriptionId: 'bfbcac43-3627-4ee7-b37a-76a0142069aa'
-  loadTestResource: 'SpaceGame'
-  loadTestResourceGroup: 'SpaceGame_Demo'
-  location: 'EAST US'
+  loadTestResource: 'TestCICDz'
+  loadTestResourceGroup: 'TestCICDgr'
+  location: 'Central US'
 
 
 stages:
