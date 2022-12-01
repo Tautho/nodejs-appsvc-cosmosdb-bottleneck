@@ -10,11 +10,11 @@ pool:
   vmImage: windows-latest
 
 variables:
-  webAppName: 'TestCICDgr'
-  serviceConnection: 'SpaceDemoCICD'
+  webAppName: 'loadtestcicd'
+  serviceConnection: 'loadtestcicdservice'
   azureSubscriptionId: 'bfbcac43-3627-4ee7-b37a-76a0142069aa'
-  loadTestResource: 'TestCICDz'
-  loadTestResourceGroup: 'TestCICDgr'
+  loadTestResource: 'loadtestcicdz'
+  loadTestResourceGroup: 'loadtestcicdcentralus-rg'
   location: 'Central US'
 
 
