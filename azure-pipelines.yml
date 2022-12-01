@@ -10,11 +10,11 @@ pool:
   vmImage: ubuntu-latest
 
 variables:
-  webAppName: 'SpaceGame>'
-  serviceConnection: 'SpaceGame'
+  webAppName: 'SpaceGame'
+  serviceConnection: 'SpaceGameCICD'
   azureSubscriptionId: 'bfbcac43-3627-4ee7-b37a-76a0142069aa'
   loadTestResource: 'SpaceGame'
-  loadTestResourceGroup: 'SpaceGame'
+  loadTestResourceGroup: 'SpaceGame_Demo'
   location: 'EAST US'
 
 
